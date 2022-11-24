@@ -1,0 +1,14 @@
+In questo contesto viene simulata la presenza di un contesto in cui abbiamo un sensore che rileva una temperatura
+e un attuatore che regoliamo con gli RPM (supponiamo che sia una ventola).
+
+Usiamo il resource discrovery e la rappresentazione senml serializzata a JSON.
+
+
+Lo scenario possibile è:
+- la lettura sotto richiesta della temperatura di un sensore
+- la regolazione dell'attuatore con gli RPM
+- la regolazione dell'attuatore con lo spegnimento/accensione dell'attuatore
+
+
+Unità di misura:
+https://kpn-iot.github.io/senml-python-library/senml_unit
